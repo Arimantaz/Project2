@@ -1,11 +1,15 @@
 // const vardas = promt ('koks tavo vardas?')
 // console.log (vardas);
 
+const pirmaverte = '8';
+console.log (pirmaverte)
+const gautaverte = Number (pirmaverte)
+console.log (gautaverte)
+const x = prompt ('pinigai');
 
-const x = prompt ('pinigai')
  const y = 15
- if (x >= y) {
-    alert ("Jegele");} else if (x===y) {
+ if (Number (x) > y) {
+    alert ("Jegele");} else if (Number (x)===y) {
         alert ("reiks taupyt");
     }
     else {
