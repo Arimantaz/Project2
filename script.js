@@ -39,9 +39,17 @@
 // const vardas = sayHi('Arimantas');
 // alert (vardas)
 
-function ketvirta (sum, bum) {
-    return sum + bum;
-}
-const atsakymas = ketvirta (2, 3);
-console.log (atsakymas)
+// function ketvirta (sum, bum) {
+//     return sum + bum;
+// }
+// const atsakymas = ketvirta (2, 3);
+// console.log (atsakymas)
+// alert (atsakymas)
+
+const celcius = prompt ('Įveskite laipsnius ');
+const atsakymas = celciusToFarenheit (celcius);
 alert (atsakymas)
+
+function celciusToFarenheit (celcius) {
+    return celcius * 1.8 + 32;
+}
