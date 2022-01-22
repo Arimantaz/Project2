@@ -33,8 +33,15 @@
 // const atsakymas = min(7, 4)
 // console.log (atsakymas)
 
-function sayHi (word) {
+// function sayHi (name) {
+//     return 'Labas' + ' ' + name;
+// }
+// const vardas = sayHi('Arimantas');
+// alert (vardas)
 
-     alert (word);
+function ketvirta (sum, bum) {
+    return sum + bum;
 }
-sayHi('laba diena');
+const atsakymas = ketvirta (2, 3);
+console.log (atsakymas)
+alert (atsakymas)
