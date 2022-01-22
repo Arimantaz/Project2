@@ -18,3 +18,17 @@ const x = prompt ('pinigai');
 // if ((x-5)< y) { alert ("blogai");}
 
 console.log ("operacija baigta");
+// console.log (window)
+
+// function vardugeneratorius (name, surname) {
+//     return name + '' + surname;
+// }
+// const manopilnasvardas = vardugeneratorius ('Arimantas', 'Jurjonas')
+// console.log (manopilnasvardas)
+
+function min (a, b) {
+    if (a < b) {
+    return a;
+} return b;}
+const atsakymas = min(7, 4)
+console.log (atsakymas)
