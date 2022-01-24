@@ -65,7 +65,18 @@ function divideValue() {
     const multiplyValue = first / second;
     writeResult(multiplyValue)
 }
-
+function sumValue() {
+    const first = getElementNumberValue("first")
+    const second = getElementNumberValue("second")
+    const multiplyValue = first + second;
+    writeResult(multiplyValue)
+}
+function minusValue() {
+    const first = getElementNumberValue("first")
+    const second = getElementNumberValue("second")
+    const multiplyValue = first - second;
+    writeResult(multiplyValue)
+}
 
 function getElementNumberValue(id) {
     const firstelemnt = document.getElementById(id);
