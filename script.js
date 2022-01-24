@@ -14,7 +14,7 @@
 //     }
 //     else {
 //         alert ("Nieko gero!")
-    // }
+// }
 // if ((x-5)< y) { alert ("blogai");}
 
 // console.log ("operacija baigta");
@@ -53,8 +53,27 @@
 // function celciusToFarenheit (celcius) {
 //     return celcius * 1.8 + 32;
 // }
-function multiplyValues (){
-    const firstelemnt = document.getElementById("first");
-console.log (firstelemnt);
+function multiplyValue() {
+    const first = getElementNumberValue("first")
+    const second = getElementNumberValue("second")
+    const multiplyValue = first * second;
+    writeResult(multiplyValue)
 }
-multiplyValues()
+
+
+function getElementNumberValue(id) {
+    const firstelemnt = document.getElementById(id);
+    const valueAsString = firstelemnt.value;
+    console.log(valueAsString)
+    // const valueType = typeof value
+    // console.log (valueType)
+    const valueAsNumber = Number(valueAsString);
+    console.log(typeof valueAsNumber)
+    return valueAsNumber;
+}
+multiplyValue()
+function writeResult(result) {
+    const resultParagraph = document.getElementById("result");
+    resultParagraph.innerHTML = "Result is: " + result;
+
+}
