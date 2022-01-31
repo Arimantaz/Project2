@@ -44,18 +44,30 @@
 //  }
 //  alert("Atspejai");
 
- const tiesa = 69;
- let spejimas;
+//  const tiesa = 69;
+//  let spejimas;
 
- do  {
-     spejimas = prompt("Atspek skaiciu");
-     if (spejimas > tiesa && spejimas != tiesa) {
-        alert ("Per aukstai");
-    } else {alert("per mazai");
-}
-       } while (spejimas != tiesa);
+//  do  {
+//      spejimas = prompt("Atspek skaiciu");
+//      if (spejimas > tiesa && spejimas != tiesa) {
+//         alert ("Per aukstai");
+//     } else {alert("per mazai");
+// }
+//        } while (spejimas != tiesa);
        
-// if ( spejimas > tiesa) {
-//     alert ("Per aukstai");}
+// // if ( spejimas > tiesa) {
+// //     alert ("Per aukstai");}
 
- alert("Atspejai");
+//  alert("Atspejai");
+
+
+function lyginiaiSkaiciai(ikiSk) {
+    for (let i = 2 ; i <= ikiSk; i++) {
+        const liekana = i % 2;
+        if (liekana !== 0) {
+            continue;
+            
+        }
+        console.log (i) 
+}}
+lyginiaiSkaiciai(10)
