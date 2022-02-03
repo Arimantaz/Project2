@@ -61,13 +61,38 @@
 //  alert("Atspejai");
 
 
-function lyginiaiSkaiciai(ikiSk) {
-    for (let i = 2 ; i <= ikiSk; i++) {
-        const liekana = i % 2;
-        if (liekana !== 0) {
-            continue;
+// function lyginiaiSkaiciai(ikiSk) {
+//     for (let i = 2 ; i <= ikiSk; i++) {
+//         const liekana = i % 2;
+//         if (liekana !== 0) {
+//             continue;
             
-        }
-        console.log (i) 
-}}
-lyginiaiSkaiciai(10)
+//         }
+//         console.log (i) 
+// }}
+// lyginiaiSkaiciai(10)
+
+const kaina = 5.33;
+const puodeliuKiekis = prompt ("Kiek pirksite kavos?");
+let suma = 0  
+// for (let i = 0; i < puodeliuKiekis; i++) {
+// suma = suma + kaina;
+
+//      }
+     
+
+
+    for (let puodelis = 1; puodelis <= puodeliuKiekis; puodelis++) {
+       const cukrausKiekis = prompt (`Kiek sauksteliu cukraus ${puodelis} puodelyje?`);
+       for (let cukrus = 1; cukrus <= cukrausKiekis; cukrus++){
+        const sakinys = `Pilu ${cukrausKiekis} šaukštelius cukraus į ${puodelis} puodelį`;
+        console.log(sakinys);
+    }
+        
+       
+        suma = suma + kaina;
+
+    }
+     alert (`Suma ${suma} eur`);
+
+     
