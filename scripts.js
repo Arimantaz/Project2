@@ -72,9 +72,9 @@
 // }}
 // lyginiaiSkaiciai(10)
 
-const kaina = 5.33;
-const puodeliuKiekis = prompt ("Kiek pirksite kavos?");
-let suma = 0  
+// const kaina = 5.33;
+// const puodeliuKiekis = prompt ("Kiek pirksite kavos?");
+// let suma = 0  
 // for (let i = 0; i < puodeliuKiekis; i++) {
 // suma = suma + kaina;
 
@@ -82,17 +82,66 @@ let suma = 0
      
 
 
-    for (let puodelis = 1; puodelis <= puodeliuKiekis; puodelis++) {
-       const cukrausKiekis = prompt (`Kiek sauksteliu cukraus ${puodelis} puodelyje?`);
-       for (let cukrus = 1; cukrus <= cukrausKiekis; cukrus++){
-        const sakinys = `Pilu ${cukrausKiekis} šaukštelius cukraus į ${puodelis} puodelį`;
-        console.log(sakinys);
-    }
+    // for (let puodelis = 1; puodelis <= puodeliuKiekis; puodelis++) {
+    //    const cukrausKiekis = prompt (`Kiek sauksteliu cukraus ${puodelis} puodelyje?`);
+    //    for (let cukrus = 1; cukrus <= cukrausKiekis; cukrus++){
+    //     const sakinys = `Pilu ${cukrausKiekis} šaukštelius cukraus į ${puodelis} puodelį`;
+    //     console.log(sakinys);
+    // }
         
        
-        suma = suma + kaina;
+    //     suma = suma + kaina;
 
-    }
-     alert (`Suma ${suma} eur`);
+    // }
+    //  alert (`Suma ${suma} eur`);
 
-     
+
+
+//    const vardai = ["Jonas",
+//     "Petras",
+//     "Aurimas"
+//  ];
+
+// while (vardai.length > 0) {
+//     vardai.pop();
+//     vardai.push ()
+// //     console.log(vardai)
+// }
+//vardai.length = 0; istrina vardus
+   //console.log (vardai.length); saraso ilgis
+   //console.log (vardai [1]); norimas vardas
+
+//    const masyvas = [
+//        "ciklas 1",
+//        "ciklas 2",
+//        "ciklas 3"
+//    ]
+//    while (masyvas.length > 0) {
+//        masyvas.shift();
+//    }
+//    console.log (masyvas)
+
+//    const vardai = ["Jonas",
+//     "Petras",
+//     "Aurimas"
+//  ];
+
+// const istrintiVardai = vardai.splice(0, 2, "Vytautas");
+// console.log (vardai);
+// console.log (istrintiVardai);
+
+
+// const lielemntas = document.querySelector("li");
+// for (let i = 0; i < lielemntas.lenght; i++)
+// console.log(lielemntas);
+
+const vardai = [ ];
+
+    vardai.push ("Arimantas");
+  vardai.unshift("Aurimas");
+  console.log (vardai);
+  vardai.pop();
+  vardai.push("Tomas");
+    console.log (vardai);
+vardai.splice(vardai.length --, 1);
+console.log (vardai);
