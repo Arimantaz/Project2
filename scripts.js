@@ -130,19 +130,19 @@
 // console.log (vardai);
 // console.log (istrintiVardai);
 
-const vardai = [
-    "Arimantas",
-    "Vytautas",
-    "Lina"
-];
+// const vardai = [
+//     "Arimantas",
+//     "Vytautas",
+//     "Lina"
+// ];
 
 
-for (let i = 0; i < vardai.length; i++) {
-    const ul = document.querySelector("ul");   
-    const li = document.createElement("li");
-    li.innerText = vardai[i];
-    ul.append(li);
-}
+// for (let i = 0; i < vardai.length; i++) {
+//     const ul = document.querySelector("ul");   
+//     const li = document.createElement("li");
+//     li.innerText = vardai[i];
+//     ul.append(li);
+// }
 
 
 // for (let i = 0; i < lielemntas.lenght; i++)
